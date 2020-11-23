@@ -67,7 +67,7 @@ body {
   position: absolute;
   content: url(../../assets/img/bg-pattern-quotation.svg);
   top: 0;
-  right: 78px;
+  right: 55px;
   z-index: 2;
 }
 
@@ -142,6 +142,9 @@ body {
   .testimonials__card--1 {
     grid-row: 1;
     grid-column: span 2;
+  }
+  .testimonials__card--1::before {
+    right: 78px;
   }
   .testimonials__card--4 {
     grid-column: span 2;

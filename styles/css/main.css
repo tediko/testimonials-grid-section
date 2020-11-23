@@ -139,4 +139,30 @@ body {
     grid-row: 1 / span 2;
   }
 }
+
+.footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #838383;
+  font-size: 1rem;
+}
+
+.footer__attribution {
+  text-align: center;
+}
+
+.footer a {
+  color: #48556a;
+  text-decoration: none;
+  transition: color 250ms ease-in;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #7541c8;
+}
 /*# sourceMappingURL=main.css.map */

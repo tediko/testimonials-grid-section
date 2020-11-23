@@ -85,4 +85,35 @@ body {
   opacity: 0.7;
   line-height: 18px;
 }
+
+/* Testimonials media queries */
+@media (min-width: 769px) {
+  .testimonials__container {
+    grid-template-columns: repeat(2, minmax(200px, 400px));
+    grid-template-rows: repeat(3, min-content);
+    padding: 72px 50px;
+  }
+  .testimonials__card--1 {
+    grid-row: 1 / span 2;
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonials__container {
+    max-width: 1200px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, min-content);
+  }
+  .testimonials__card--1 {
+    grid-row: 1;
+    grid-column: span 2;
+  }
+  .testimonials__card--4 {
+    grid-column: span 2;
+  }
+  .testimonials__card--5 {
+    grid-column: 4 / 5;
+    grid-row: 1 / span 2;
+  }
+}
 /*# sourceMappingURL=main.css.map */

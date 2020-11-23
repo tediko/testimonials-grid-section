@@ -9,3 +9,15 @@
         transform: scale(1.04);
     }
 }
+
+@keyframes container-fade {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    100% {
+        opacity: 1;
+        trasnsform: scale(1);
+    }
+}

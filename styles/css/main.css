@@ -11,6 +11,17 @@
   }
 }
 
+@keyframes container-fade {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    trasnsform: scale(1);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +49,7 @@ body {
   grid-template-rows: repeat(5, auto);
   grid-gap: 32px;
   padding: 72px 25px;
+  animation: container-fade 1000ms forwards;
 }
 
 .testimonials__card {

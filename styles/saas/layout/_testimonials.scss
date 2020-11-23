@@ -5,6 +5,7 @@
         grid-template-rows: repeat(5, auto);
         grid-gap: 32px;
         padding: 72px 25px;
+        animation: container-fade 1000ms forwards;
     }
 
     &__card {

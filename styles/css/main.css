@@ -44,10 +44,15 @@ body {
   flex-flow: column;
   border-radius: 10px;
   padding: 24px 32px;
+  transition: opacity 250ms ease-in;
 }
 
 .testimonials__card:hover {
   animation: card-hover 500ms forwards;
+}
+
+.testimonials__card.active {
+  opacity: 0.4;
 }
 
 .testimonials__card--1 {

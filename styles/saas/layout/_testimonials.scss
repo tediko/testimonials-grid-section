@@ -12,9 +12,14 @@
         flex-flow: column;
         border-radius: 10px;
         padding: 24px 32px;
+        transition: opacity 250ms ease-in;
 
         &:hover {
             animation: card-hover 500ms forwards;
+        }
+
+        &.active {
+            opacity: 0.4;
         }
 
         &--1 {

@@ -14,18 +14,27 @@
         padding: 24px 32px;
         box-shadow: 18px 37px 57px -22px rgba(0, 0, 0, 0.1);
         transition: opacity 250ms ease-in;
-
+        
         &:hover {
             animation: card-hover 500ms forwards;
         }
-
+        
         &.active {
             opacity: 0.4;
         }
-
+        
         &--1 {
+            position: relative;
             background: $c-violet;
             color: text-clr($c-violet);
+
+            &::before {
+                position: absolute;
+                content: url(../../assets/img/bg-pattern-quotation.svg);
+                top: 0;
+                right: 78px;
+                z-index: 2;
+            }
         }
 
         &--2 {
@@ -71,6 +80,7 @@
         font-size: 1.538rem;
         font-weight: 500;
         margin: 16px 0;
+        z-index: 3;
     }
 
     &__text {

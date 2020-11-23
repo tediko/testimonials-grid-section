@@ -58,8 +58,17 @@ body {
 }
 
 .testimonials__card--1 {
+  position: relative;
   background: #7541c8;
   color: white;
+}
+
+.testimonials__card--1::before {
+  position: absolute;
+  content: url(../../assets/img/bg-pattern-quotation.svg);
+  top: 0;
+  right: 78px;
+  z-index: 2;
 }
 
 .testimonials__card--2 {
@@ -104,6 +113,7 @@ body {
   font-size: 1.538rem;
   font-weight: 500;
   margin: 16px 0;
+  z-index: 3;
 }
 
 .testimonials__text {

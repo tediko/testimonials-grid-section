@@ -6,6 +6,8 @@ html {
 }
 
 body {
+    display: flex;
+    justify-content: center;
     min-height: 100vh;
     font-family: 'Barlow Semi Condensed', sans-serif;
     background: $c-blue-grayish-light;

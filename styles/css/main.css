@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+@keyframes card-hover {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.98);
+  }
+  100% {
+    transform: scale(1.04);
+  }
+}
+
 * {
   margin: 0;
   padding: 0;

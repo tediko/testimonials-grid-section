@@ -8,5 +8,5 @@ function clear() {
     cards.forEach(card => card.classList.remove('active'));
 }
 
-cards.forEach(card => card.addEventListener('mouseover', fadeDown));
+cards.forEach(card => card.addEventListener('mouseenter', fadeDown));
 cards.forEach(card => card.addEventListener('mouseleave', clear));

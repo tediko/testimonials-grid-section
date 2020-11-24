@@ -4,7 +4,7 @@
 
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge. This time I used Mobile First approach additionally using Saas. 
+Thanks for checking out this front-end coding challenge. This time I used Mobile First approach additionally using Sass. 
 
 [LIVE PREVIEW](https://testimonialsgridsection-tediko.netlify.app/)
 
